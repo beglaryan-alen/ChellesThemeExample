@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary x:Class="ChellesThemeExample.DefaultResources"
+                    xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <!--  COLORS  -->
+    <Color x:Key="defaultColor1">white</Color>
+    <Color x:Key="defaultColor2">white</Color>
+    <Color x:Key="defaultColor3">white</Color>
+    <Color x:Key="defaultColor4">white</Color>
+
+</ResourceDictionary>
