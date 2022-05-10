@@ -8,7 +8,11 @@ namespace ChellesThemeExample
     public partial class App : PrismApplication
     {
         public static T Resolve<T>() => Current.Container.Resolve<T>();
-        public App(IPlatformInitializer platformInitializer) : base(platformInitializer) { }
+        private readonly ThemeModel _theme;
+        public App(IPlatformInitializer platformInitializer, ThemeModel theme) : base(platformInitializer) 
+        {
+            _theme = theme;
+        }
 
         protected override void OnInitialized()
         {
